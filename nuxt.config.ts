@@ -15,7 +15,11 @@ export default defineNuxtConfig({
   runtimeConfig: {
     // Keys within public are also exposed client-side
     public: {
-      apiBase: 'https://staging.mazaady.com/api/',
+      apiBase: 'https://staging.mazaady.com/api/v1/',
     },
   },
+  modules: [
+    // ...
+    '@pinia/nuxt',
+  ],
 });
