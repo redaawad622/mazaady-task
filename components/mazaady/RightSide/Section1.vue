@@ -26,8 +26,8 @@
             <v-scale-transition>
               <v-icon
                 v-if="isSelected"
-                color="success"
-                size="48"
+                color="primary"
+                size="24"
                 icon="mdi-check"
               ></v-icon>
             </v-scale-transition>
@@ -68,22 +68,6 @@
 
       <v-card-text>
         <div class="font-weight-bold ml-1 mb-2">Today</div>
-
-        <v-timeline density="compact" align="start">
-          <v-timeline-item
-            v-for="message in messages"
-            :key="message.time"
-            :dot-color="message.color"
-            size="x-small"
-          >
-            <div class="mb-4">
-              <div class="font-weight-normal">
-                <strong>{{ message.from }}</strong> @{{ message.time }}
-              </div>
-              <div>{{ message.message }}</div>
-            </div>
-          </v-timeline-item>
-        </v-timeline>
       </v-card-text>
     </v-card>
   </div>
@@ -94,7 +78,7 @@ export default {
   data: () => ({
     model: 0,
     images: [
-      'https://cdn.pixabay.com/photo/2020/07/12/07/47/bee-5396362_1280.jpg',
+      'images/banner.png',
       'https://www.topgear.com/sites/default/files/2022/09/1-BMW-3-Series.jpg',
       'https://cdn.pixabay.com/photo/2020/07/12/07/47/bee-5396362_1280.jpg',
       'https://cdn.pixabay.com/photo/2020/07/12/07/47/bee-5396362_1280.jpg',

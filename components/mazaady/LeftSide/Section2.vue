@@ -9,7 +9,7 @@
         ><v-sheet
           class="rounded px-3 py-1 text-usedC3-darken-2 text-h5 font-weight-bold"
           color="usedC3"
-          >+20</v-sheet
+          >20+</v-sheet
         >
       </template>
     </v-list>

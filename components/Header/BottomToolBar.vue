@@ -34,6 +34,15 @@ const links = [
         </NuxtLink>
       </div>
       <v-spacer></v-spacer>
+      <v-btn icon>
+        <v-icon>mdi-cash</v-icon>
+      </v-btn>
+      <v-btn icon>
+        <v-icon>mdi-bell</v-icon>
+      </v-btn>
+      <v-btn icon>
+        <v-icon>mdi-heart</v-icon>
+      </v-btn>
       <v-btn
         prepend-icon="mdi-chevron-down"
         rounded
@@ -42,16 +51,6 @@ const links = [
         class="me-1"
       >
         العربيه
-      </v-btn>
-      <v-btn icon>
-        <v-icon>mdi-heart</v-icon>
-      </v-btn>
-      <v-btn icon>
-        <v-icon>mdi-bell</v-icon>
-      </v-btn>
-
-      <v-btn icon>
-        <v-icon>mdi-cash</v-icon>
       </v-btn>
     </v-container>
   </v-toolbar>
